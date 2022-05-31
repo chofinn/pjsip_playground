@@ -10,3 +10,5 @@ testing the usage of pjsua
     - when oncall, input "a" to answer the call
     - it will play a wav to the caller, then start recording for 10 sec
     - after the recording is over, it will hangup the call
+- Dockerfile
+    - build docker image of myrecorder.py

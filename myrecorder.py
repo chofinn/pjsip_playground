@@ -107,9 +107,9 @@ try:
     # logging config.
     lib.init(log_cfg = pj.LogConfig(level=LOG_LEVEL, callback=log_cb))
 
-    # Create UDP transport which listens to any available port
+    # Create UDP transport which listens to 5060 port
     transport = lib.create_transport(pj.TransportType.UDP, 
-                                     pj.TransportConfig(0))
+                                     pj.TransportConfig(5060))
     print("\nListening on", transport.info().host, end=' ') 
     print("port", transport.info().port, "\n")
     
