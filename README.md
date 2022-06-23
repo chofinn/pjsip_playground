@@ -13,7 +13,7 @@
     - build docker image of myrecorder.py
 ## install PJSIP python API
 - OS: ubuntu 20.04
-- run `pjsip-install.sh`
+- run `./pjsip-install.sh`
 
 ## run myrecorder.py
 - `python myrecorder.py`
