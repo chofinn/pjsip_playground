@@ -1,5 +1,4 @@
 # PJSIP recorder
-testing the usage of pjsua
 - player.py
     - play wav when call
     - no wav file in this repo, plz prepare ur own file
