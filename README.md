@@ -1,4 +1,4 @@
-# PJSIP playground
+# PJSIP recorder
 testing the usage of pjsua
 - player.py
     - play wav when call
