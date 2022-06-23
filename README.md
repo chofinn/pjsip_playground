@@ -12,3 +12,5 @@ testing the usage of pjsua
     - after the recording is over, it will hangup the call
 - Dockerfile
     - build docker image of myrecorder.py
+## install PJSIP python API
+- run `pjsip-install.sh`
